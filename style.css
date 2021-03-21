@@ -1,0 +1,146 @@
+.book{
+    width: 100vw;
+    display: flex;
+    flex-flow: row;
+    height: 500px;
+}
+
+input {
+    color: white;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 5px;
+    background-color: #25252527;
+    border: none;
+}
+
+textarea{
+    color: white;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #25252527;
+    border: none;
+}
+
+input:focus{
+    outline: rgba(255, 255, 255, 0.158);
+}
+textarea:focus{
+    outline: rgba(255, 255, 255, 0.158);
+}
+
+.buttons{
+    top: 12px;
+    right: 0;
+    position: fixed;
+    height: 40px;
+    width: 120px;
+}
+
+#create-book-btn{
+    height: 30px;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 0;
+}
+
+#create-book-btn:hover{
+    background-color: rgba(146, 146, 146, 0.144);
+}
+
+#create-book-btn:focus{
+    outline: 0;
+}
+
+.buttons button{
+    border: 0;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.buttons button:hover{
+    color: rgba(85, 85, 85, 0.74);
+}
+
+.buttons button:focus{
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.book-image{
+    width: 40%;
+    height: 500px;
+    background-size: cover;
+}
+
+.book-header{
+
+}
+
+.book-name{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.description-input{
+    height: 100%;
+}
+
+.hr-2{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(112, 112, 112, 0.185);
+}
+
+.book-info{
+    text-align: justify;
+    padding-left: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.book-info-container{
+    width: 60%;
+    max-height: 100%;
+    overflow-y: auto;
+    background-size: cover;
+}
+
+.book-info-container-dark{
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+
+.book-description{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
